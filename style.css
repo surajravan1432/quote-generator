@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato' , 'sans-serif';
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHw%3D&w=1000&q=80https://img1.goodfon.com/wallpaper/nbig/7/f6/library-book-information.jpg) no-repeat center center/ cover ;
+
+}
+.container{
+  width: 550px;
+  height: 450px;
+}
+.header{
+
+  font-size: 1.2rem;
+  border: solid 2px #fff;
+  color: orange;
+  background-color: #1a1919;
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.main{
+  width: 100%;
+  height: 300px;
+  background-color:transparent;
+  border-radius: 15px;
+  padding: 50px 40px;
+  box-shadow: 0 0 15px;
+}
+.textarea{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.person{
+  font-size: 1.6rem;
+  color: #10ea51;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.button #new_button {
+  background-color: #262626; 
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  
+  
+}
+.button #new_button:active{
+  background-color: lightblue;
+}
